@@ -5,7 +5,7 @@ import './example.scss';
 export interface ExampleProps {
   active?: boolean | undefined;
   disabled?: boolean | undefined;
-  children?: any;
+  children?: React.ReactNode;
   className?: string;
 }
 
